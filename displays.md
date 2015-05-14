@@ -2,12 +2,12 @@
 
 Доступные типы вывода:
 
- * [Таблица](#table)
- * [Datatables](#datatables)
- * [Асинхронная Datatables](#datatablesAsync)
- * [Дерево](#tree)
- * [Вывод табами](#tabbed)
- * [Произвольный](#custom)
+ * [Таблица](displays#table)
+ * [Datatables](displays#datatables)
+ * [Асинхронная Datatables](displays#datatablesAsync)
+ * [Дерево](displays#tree)
+ * [Вывод табами](displays#tabbed)
+ * [Произвольный](displays#custom)
 
 <a name="table"></a>
 ## Вывод таблицей

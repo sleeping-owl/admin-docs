@@ -8,15 +8,15 @@ Column::{type}('{field name}')
 
 ## Поддерживаемые типы
 
- - [string](#string)
- - [lists](#lists)
- - [count](#count)
- - [image](#image)
- - [datetime](#datetime)
- - [order](#order)
- - [action](#action)
- - [checkbox](#checkbox)
- - [custom](#custom)
+ - [string](columns#string)
+ - [lists](columns#lists)
+ - [count](columns#count)
+ - [image](columns#image)
+ - [datetime](columns#datetime)
+ - [order](columns#order)
+ - [action](columns#action)
+ - [checkbox](columns#checkbox)
+ - [custom](columns#custom)
 
 ## Заголовок столбца
 

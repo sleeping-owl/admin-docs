@@ -8,10 +8,10 @@ ColumnFilter::{type}()
 
 ## Поддерживаемые типы
 
- - [text](#text)
- - [select](#select)
- - [date](#date)
- - [range](#range)
+ - [text](columnfilters#text)
+ - [select](columnfilters#select)
+ - [date](columnfilters#date)
+ - [range](columnfilters#range)
 
 -----
 <a name="text"></a>
