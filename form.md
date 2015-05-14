@@ -114,7 +114,6 @@ class MyItem extends NamedFormItem
 FormItem::myItem('field')->label('My Label');
 ```
 
-----
 <a name="columns"></a>
 ## Columns
 
@@ -131,7 +130,6 @@ FormItem::columns()->columns([
 ])
 ```
 
-----
 <a name="text"></a>
 ## Text
 
@@ -141,7 +139,6 @@ FormItem::columns()->columns([
 FormItem::text('title', 'Title')
 ```
 
-----
 <a name="textaddon"></a>
 ## TextAddon
 
@@ -154,7 +151,6 @@ FormItem::textAddon('url', 'Url')->addon('http://my-site.com/')->placement('befo
 FormItem::textAddon('price', 'Price')->addon('$')->placement('after')
 ```
 
-----
 <a name="hidden"></a>
 ## Hidden
 
@@ -164,7 +160,6 @@ FormItem::textAddon('price', 'Price')->addon('$')->placement('after')
 FormItem::hidden('field')
 ```
 
-----
 <a name="checkbox"></a>
 ## Checkbox
 
@@ -174,7 +169,6 @@ FormItem::hidden('field')
 FormItem::checkbox('active', 'Active')
 ```
 
-----
 <a name="date"></a>
 ## Date
 
@@ -190,7 +184,6 @@ FormItem::date('date', 'Date')
 FormItem::date('date', 'Date')->format('d.m.Y')
 ```
 
-----
 <a name="time"></a>
 ## Time
 
@@ -212,7 +205,6 @@ FormItem::time('time', 'Time')->format('H:i')
 FormItem::time('time', 'Time')->format('H:i:s')->seconds(true)
 ```
 
-----
 <a name="timestamp"></a>
 ## Timestamp
 
@@ -234,7 +226,6 @@ FormItem::timestamp('timestamp', 'Timestamp')->format('d.m.Y H:i')
 FormItem::timestamp('timestamp', 'Timestamp')->format('d.m.Y H:i:s')->seconds(true)
 ```
 
-----
 <a name="file"></a>
 ## File
 
@@ -244,7 +235,6 @@ FormItem::timestamp('timestamp', 'Timestamp')->format('d.m.Y H:i:s')->seconds(tr
 FormItem::file('file', 'File')
 ```
 
-----
 <a name="image"></a>
 ## Image
 
@@ -254,7 +244,6 @@ FormItem::file('file', 'File')
 FormItem::image('photo', 'Photo')
 ```
 
-----
 <a name="images"></a>
 ## Images
 
@@ -280,7 +269,6 @@ public function setPhotosAttribute($photos)
 }
 ```
 
-----
 <a name="select"></a>
 ## Select
 
@@ -318,7 +306,6 @@ FormItem::select('category_id', 'Category')
 …->nullable()
 ```
 
-----
 <a name="multiselect"></a>
 ## Multiselect
 
@@ -365,7 +352,6 @@ public function setCategoriesAttribute($categories)
 
 Метод `categories()` определяет связь `belongs-to-many` в данном случае.
 
-----
 <a name="radio"></a>
 ## Radio
 
@@ -403,7 +389,6 @@ FormItem::radio('category_id', 'Category')
 …->nullable()
 ```
 
-----
 <a name="textarea"></a>
 ## Textarea
 
@@ -413,7 +398,6 @@ FormItem::radio('category_id', 'Category')
 FormItem::textarea('text', 'Text')
 ```
 
-----
 <a name="ckeditor"></a>
 ## CKEditor
 
@@ -423,7 +407,6 @@ FormItem::textarea('text', 'Text')
 FormItem::ckeditor('text', 'Text')
 ```
 
-----
 <a name="custom"></a>
 ## Custom
 
@@ -439,7 +422,6 @@ FormItem::custom()->display(function ($instance)
 })
 ```
 
-----
 <a name="view"></a>
 ## View
 

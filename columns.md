@@ -101,7 +101,6 @@ Column::string('url', 'Url')->append(
 ```
 
 
------
 <a name="string"></a>
 ## String
 
@@ -129,7 +128,6 @@ Column::string('{field name}')
  Column::string('city.state.title') // you can use nested relations
  ```
  
------
 <a name="lists"></a>
 ## Lists
 
@@ -143,7 +141,6 @@ Column::lists('categories.title')
 
 `categories()` должен определять связь `belongs-to-many` в данном случае.
  
------
 <a name="count"></a>
 ## Count
 
@@ -161,7 +158,6 @@ Column::count('images')->append(
 
 `images()` должен определять связь `has-many` в данном случае.
  
------
 <a name="image"></a>
 ## Image
 
@@ -175,7 +171,6 @@ Column::image('photo')
 
 Столбцы с изображениями не могут быть сортируемыми.
  
------
 <a name="datetime"></a>
 ## Datetime
 
@@ -194,7 +189,6 @@ Column::datetime('created_at')->format('d.m.Y H:i:s')
 Column::datetime('created_at')->format('m/d/Y g:i')
 ```
 
------
 <a name="order"></a>
 ## Order
 
@@ -231,7 +225,6 @@ class Category extends Model
 }
 ```
  
------
 <a name="action"></a>
 ## Action
 
@@ -297,7 +290,6 @@ Column::action('show')->label('Label')->callback(function ($instance)
 })
 ```
 
------
 <a name="checkbox"></a>
 ## Checkbox
 
@@ -309,7 +301,6 @@ Column::checkbox()
 
 Подробнее смотрите раздел [массовые операции](displays#table).
  
------
 <a name="custom"></a>
 ## Custom
 

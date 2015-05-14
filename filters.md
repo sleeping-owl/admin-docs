@@ -38,8 +38,7 @@ Filter::field('title')->value('TODO category')
 
 **Важно:** параметр запроса должнен иметь значение. Вы не можете применить фильтр используя `categories?title`, но `categories?title=1` или `categories?title=something_else` будут работать.
 
-<hr/>
-<a name="#related"></a>
+<a name="related"></a>
 ## Фильтр по связанной модели
 
 Необходимо указать поле для сортировки (*related_id в примере*), связанную модель (*App\Related*) и поле связанной модели для отображения в качестве заголовока фильтра (*firstName*). Значение фильтра будет извлечено из параметров запроса.
@@ -48,8 +47,7 @@ Filter::field('title')->value('TODO category')
 Filter::related('related_id')->model('App\Related')->display('firstName')
 ```
 
-<hr/>
-<a name="#field"></a>
+<a name="field"></a>
 ## Фильтр по полю
 
 Следующий код будет фильтровать данные по параметру из запроса.
@@ -58,7 +56,6 @@ Filter::related('related_id')->model('App\Related')->display('firstName')
 Filter::field('published')
 ```
 
-<hr/>
 <a name="scope"></a>
 ## Фильтр со scope
 
@@ -77,7 +74,6 @@ public function scopeMyScope($query, $parameter)
 }
 ```
 
-<hr/>
 <a name="custom"></a>
 ## Произвольный фильтр
 

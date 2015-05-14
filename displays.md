@@ -109,7 +109,6 @@ $display->actions([
 
 Для использования массовых действий необходимо добавить `Column::checkbox()` в список столбцов.
 
-<hr/>
 <a name="datatables"></a>
 ## Вывод Datatables
 
@@ -154,7 +153,6 @@ $display->attributes([
  - `ordering` &mdash; boolean, включена ли функция сортировки (по умолчанию: true)
  - `stateSave` &mdash; boolean, включена ли функция сохранения состояния (по умолчанию: true)
 
-<hr/>
 <a name="datatablesAsync"></a>
 ## Асинхронный вывод Datatables
 
@@ -176,7 +174,6 @@ $display->attributes([
  * если вы хотите использовать асинхронный вывод datatables внутри вывода табами, необходимо указать имя таблицы:
    `AdminDisplay::datatablesAsync('my-table-name')`
 
-<hr/>
 <a name="tree"></a>
 ## Вывод деревом
 
@@ -226,7 +223,6 @@ $display->orderField('order');
 $display->rootParentId(0);
 ```
 
-<hr/>
 <a name="tabbed"></a>
 ## Вывод табами
 
@@ -266,7 +262,6 @@ $display->tabs(function ()
 });
 ```
 
-<hr/>
 <a name="custom"></a>
 ## Произвольный вывод
 

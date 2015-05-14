@@ -13,7 +13,6 @@ ColumnFilter::{type}()
  - [date](columnfilters#date)
  - [range](columnfilters#range)
 
------
 <a name="text"></a>
 ## Text
 
@@ -31,7 +30,6 @@ ColumnFilter::text()
 ColumnFilter::text()->placeholder('Title')
 ```
 
------
 <a name="select"></a>
 ## Select
 
@@ -69,7 +67,6 @@ ColumnFilter::select()
 ColumnFilter::select()->placeholder('Country')
 ```
 
------
 <a name="date"></a>
 ## Date
 
@@ -95,7 +92,6 @@ ColumnFilter::date()->placeholder('Title')
 ColumnFilter::date()->format('d.m.Y')
 ```
 
------
 <a name="range"></a>
 ## Range
 
