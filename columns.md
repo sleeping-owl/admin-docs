@@ -96,7 +96,7 @@ Column::url('{field to grab url from}')
 
 ```php
 Column::string('url', 'Url')->append(
-	Column::url('full_url)
+	Column::url('full_url')
 )
 ```
 
