@@ -25,7 +25,7 @@ FormItem::{type}('{field name}', '{label}')
 
  - [columns](form#columns)
  - [text](form#text)
- - [textAddon](form#textaddon)
+ - [textaddon](form#textaddon)
  - [hidden](form#hidden)
  - [checkbox](form#checkbox)
  - [date](form#date)
@@ -147,8 +147,8 @@ FormItem::text('title', 'Title')
 По умолчанию расположение вставки - `before`.
 
 ```php
-FormItem::textAddon('url', 'Url')->addon('http://my-site.com/')->placement('before')
-FormItem::textAddon('price', 'Price')->addon('$')->placement('after')
+FormItem::textaddon('url', 'Url')->addon('http://my-site.com/')->placement('before')
+FormItem::textaddon('price', 'Price')->addon('$')->placement('after')
 ```
 
 <a name="hidden"></a>
